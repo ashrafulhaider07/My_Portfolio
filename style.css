@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #0B0C10;
+}
+nav{
+    background-color: #171818;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+nav img{
+    height: 60px;
+    width: 80px;
+    padding-left: 20px;
+}
+ul{
+    display: flex;
+    color: rgb(0, 0, 15);
+    gap: 20px;
+    background-color: #171818;
+}
+ul li{
+    list-style: none;
+    /* background-color: #66fcf1; */
+    padding: 20px 0px;
+    cursor : pointer;
+
+}
+ul a{
+    text-decoration: none;
+    /* background-color: #0B0C10; */
+    padding: 22px 40px;
+    }
+ul li:hover{
+    background-color: #00b4a8;
+    transition: all .4s ease;
+}
+.search1{
+    /* padding: 8px 16px; */
+    height: 35px;
+    width: 180px;
+    border-radius: 50px;
+    /* padding-right: 80px; */
+    margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+    .parent{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.child>img{
+    height: 500px;
+    width: 500px;
+    margin: 10px 0 0 250px;
+}
+.child{
+    width: 50%;
+    color: aliceblue;
+}
+.child>p{
+    font-size: 15px;
+    text-indent: 50px;
+    text-align: justify;
+    margin-right: 250px;
+}
+.child>p::first-letter{
+    font-size: 40px;
+}
+.child>button{
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 50px;
+    /* color: #66fcf1; */
+}
+.child>button>a{
+    text-decoration: none;
+    /* color: rgb(255, 255, 255); */
+    padding: 12px 17px;
+}
+.child>button:hover{
+    background-color: #66fcf1;
+    transition: all .4s ease;
+}
+
+
+
+
+
+.btn{
+    margin: 10px 0 0 285px;
+}
+
+.btn button{
+    height: 45px;
+    width: 140px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn span{
+    margin: 10px 0 0 10px;
+    font-size: 20px;
+}
+.btn button a{
+    text-decoration: none;
+    padding: 10px 35px;
+}
+.btn .up{
+    background-color:#00a123 ;
+}
+.btn .fi{
+    background-color:#1DBF73 ;
+}
+.btn .li{
+    background-color:#0072b1 ;
+}
+
+.btn .up:hover{
+    background-color: #13dd3f;
+    transition: all .3s ease;
+}
+
+.btn .fi:hover{
+    background-color: #21f08f;
+    transition: all .3s ease;
+}
+.btn .li:hover{
+    background-color: #20aaf4;
+    transition: all .3s ease;
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    background-color: #171818;
+    padding: 10px;  
+}
